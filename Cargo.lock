@@ -5229,6 +5229,7 @@ dependencies = [
  "objc2 0.6.4",
  "objc2-core-foundation",
  "objc2-io-kit",
+ "openlogi-device-registry",
  "serde",
  "thiserror 2.0.18",
  "tracing",
@@ -5263,6 +5264,7 @@ dependencies = [
  "etcetera",
  "num_enum",
  "nutype",
+ "openlogi-device-registry",
  "plist",
  "serde",
  "strum",
@@ -5319,6 +5321,7 @@ dependencies = [
  "futures-concurrency",
  "futures-lite",
  "openlogi-core",
+ "openlogi-device-registry",
  "openlogi-hidpp",
  "serde",
  "tempfile",
@@ -5326,6 +5329,10 @@ dependencies = [
  "tokio",
  "tracing",
 ]
+
+[[package]]
+name = "openlogi-device-registry"
+version = "0.7.7"
 
 [[package]]
 name = "openlogi-hid"
@@ -5362,6 +5369,7 @@ dependencies = [
  "hex",
  "hidreport",
  "num_enum",
+ "openlogi-device-registry",
  "openlogi-hidpp-derive",
  "serde",
  "thiserror 2.0.18",
